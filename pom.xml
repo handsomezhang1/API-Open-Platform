@@ -12,9 +12,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yupi</groupId>
-    <artifactId>yuapi-backend</artifactId>
+    <artifactId>zdsapi-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>yuapi-backend</name>
+    <name>zdsapi-backend</name>
     <description>鱼皮接口</description>
     <properties>
         <java.version>1.8</java.version>
@@ -26,7 +26,7 @@
         </dependency>
         <dependency>
             <groupId>com.yupi</groupId>
-            <artifactId>yuapi-common</artifactId>
+            <artifactId>zdsapi-common</artifactId>
             <version>0.0.1</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.dubbo/dubbo -->
@@ -86,7 +86,7 @@
         </dependency>
         <dependency>
             <groupId>com.yupi</groupId>
-            <artifactId>yuapi-client-sdk</artifactId>
+            <artifactId>zdsapi-client-sdk</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>

@@ -14,9 +14,9 @@ import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoUpdateRequest;
 import com.yupi.project.model.enums.InterfaceInfoStatusEnum;
 import com.yupi.project.service.InterfaceInfoService;
 import com.yupi.project.service.UserService;
-import com.yupi.yuapiclientsdk.client.YuApiClient;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
-import com.yupi.yuapicommon.model.entity.User;
+import com.yupi.zdsapiclientsdk.client.YuApiClient;
+import com.yupi.zdsapicommon.model.entity.InterfaceInfo;
+import com.yupi.zdsapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -222,7 +222,7 @@ public class InterfaceInfoController {
             throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
         }
         // 判断该接口是否可以调用
-        com.yupi.yuapiclientsdk.model.User user = new com.yupi.yuapiclientsdk.model.User();
+        com.yupi.zdsapiclientsdk.model.User user = new com.yupi.zdsapiclientsdk.model.User();
         user.setUsername("test");
         String username = yuApiClient.getUsernameByPost(user);
         if (StringUtils.isBlank(username)) {
@@ -292,7 +292,7 @@ public class InterfaceInfoController {
         String secretKey = loginUser.getSecretKey();
         YuApiClient tempClient = new YuApiClient(accessKey, secretKey);
         Gson gson = new Gson();
-        com.yupi.yuapiclientsdk.model.User user = gson.fromJson(userRequestParams, com.yupi.yuapiclientsdk.model.User.class);
+        com.yupi.zdsapiclientsdk.model.User user = gson.fromJson(userRequestParams, com.yupi.zdsapiclientsdk.model.User.class);
         String usernameByPost = tempClient.getUsernameByPost(user);
         return ResultUtils.success(usernameByPost);
     }

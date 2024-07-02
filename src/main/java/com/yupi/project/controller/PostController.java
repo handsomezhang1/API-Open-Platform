@@ -15,7 +15,7 @@ import com.yupi.project.model.dto.post.PostUpdateRequest;
 import com.yupi.project.model.entity.Post;
 import com.yupi.project.service.PostService;
 import com.yupi.project.service.UserService;
-import com.yupi.yuapicommon.model.entity.User;
+import com.yupi.zdsapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;

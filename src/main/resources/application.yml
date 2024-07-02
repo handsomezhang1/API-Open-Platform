@@ -3,11 +3,11 @@
 # @from <a href="https://yupi.icu">编程导航知识星球</a>
 spring:
   application:
-    name: yuapi-backend
+    name: zdsapi-backend
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/yuapi
+    url: jdbc:mysql://localhost:3306/zdsapi
     username: root
     password: root
   mvc:
@@ -44,7 +44,7 @@ mybatis-plus:
       logic-delete-value: 1 # 逻辑已删除值(默认为 1)
       logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
 # 这段配置仅供测试，实际应该根据登录用户获取对应的 ak、sk
-yuapi:
+zdsapi:
   client:
     access-key: yupi
     secret-key: abcdefgh

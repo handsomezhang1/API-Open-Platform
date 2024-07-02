@@ -5,7 +5,7 @@ import com.yupi.project.annotation.AuthCheck;
 import com.yupi.project.common.ErrorCode;
 import com.yupi.project.exception.BusinessException;
 import com.yupi.project.service.UserService;
-import com.yupi.yuapicommon.model.entity.User;
+import com.yupi.zdsapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
