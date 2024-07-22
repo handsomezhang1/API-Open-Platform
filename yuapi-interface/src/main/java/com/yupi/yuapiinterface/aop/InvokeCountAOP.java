@@ -4,12 +4,11 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
  * 调用次数统计切面
- *
+ * 用于统计接口调用情况的可视化
  */
 @RestControllerAdvice
 public class InvokeCountAOP {
 
-    // 原创_项目 [鱼皮](https://github.com/liyupi)
 
 //    @Resource
 //    private UserInterfaceInfoService userInterfaceInfoService;

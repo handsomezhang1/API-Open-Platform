@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 
 /**
  * YuApi 模拟接口入口类
+ * 可以进行后续的AI接口接入
 
  */
 @SpringBootApplication

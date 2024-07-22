@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 名称 API
- *
+ * 自定义API
  */
 @RestController
 @RequestMapping("/name")
