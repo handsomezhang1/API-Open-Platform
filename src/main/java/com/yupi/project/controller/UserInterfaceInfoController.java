@@ -12,8 +12,8 @@ import com.yupi.project.model.dto.userinterfaceinfo.UserInterfaceInfoQueryReques
 import com.yupi.project.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
 import com.yupi.project.service.UserInterfaceInfoService;
 import com.yupi.project.service.UserService;
-import com.yupi.zdsapicommon.model.entity.User;
-import com.yupi.zdsapicommon.model.entity.UserInterfaceInfo;
+import com.yupi.yuapicommon.model.entity.User;
+import com.yupi.yuapicommon.model.entity.UserInterfaceInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;

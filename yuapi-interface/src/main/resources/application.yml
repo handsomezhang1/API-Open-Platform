@@ -1,0 +1,9 @@
+# 公共配置文件
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+yuapi:
+  client:
+    access-key: yupi
+    secret-key: abcdefgh

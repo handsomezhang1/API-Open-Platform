@@ -1,7 +1,7 @@
 package com.yupi.project.service.impl.inner;
 
 import com.yupi.project.service.UserInterfaceInfoService;
-import com.yupi.zdsapicommon.service.InnerUserInterfaceInfoService;
+import com.yupi.yuapicommon.service.InnerUserInterfaceInfoService;
 import org.apache.dubbo.config.annotation.DubboService;
 
 import javax.annotation.Resource;

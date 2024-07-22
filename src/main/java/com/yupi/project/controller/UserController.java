@@ -11,7 +11,7 @@ import com.yupi.project.exception.BusinessException;
 import com.yupi.project.model.dto.user.*;
 import com.yupi.project.model.vo.UserVO;
 import com.yupi.project.service.UserService;
-import com.yupi.zdsapicommon.model.entity.User;
+import com.yupi.yuapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;

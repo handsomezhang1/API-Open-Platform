@@ -5,7 +5,7 @@ import com.yupi.project.annotation.AuthCheck;
 import com.yupi.project.common.ErrorCode;
 import com.yupi.project.exception.BusinessException;
 import com.yupi.project.service.UserService;
-import com.yupi.zdsapicommon.model.entity.User;
+import com.yupi.yuapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -24,8 +24,6 @@ import java.util.stream.Collectors;
 /**
  * 权限校验 AOP
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Aspect
 @Component

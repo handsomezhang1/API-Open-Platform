@@ -8,7 +8,7 @@ import com.yupi.project.common.ErrorCode;
 import com.yupi.project.exception.BusinessException;
 import com.yupi.project.mapper.UserMapper;
 import com.yupi.project.service.UserService;
-import com.yupi.zdsapicommon.model.entity.User;
+import com.yupi.yuapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;

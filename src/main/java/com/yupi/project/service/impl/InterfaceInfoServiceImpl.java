@@ -5,7 +5,7 @@ import com.yupi.project.common.ErrorCode;
 import com.yupi.project.exception.BusinessException;
 import com.yupi.project.mapper.InterfaceInfoMapper;
 import com.yupi.project.service.InterfaceInfoService;
-import com.yupi.zdsapicommon.model.entity.InterfaceInfo;
+import com.yupi.yuapicommon.model.entity.InterfaceInfo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
