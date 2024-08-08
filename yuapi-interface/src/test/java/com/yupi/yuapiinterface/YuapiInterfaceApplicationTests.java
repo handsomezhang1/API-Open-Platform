@@ -21,7 +21,7 @@ class YuapiInterfaceApplicationTests {
     void contextLoads() {
         String result = yuApiClient.getNameByGet("yupi");
         User user = new User();
-        user.setUsername("作_者 【程序员_鱼皮】 https://space.bilibili.com/12890453/");
+        user.setUsername("作_者 【张德帅】");
         String usernameByPost = yuApiClient.getUsernameByPost(user);
         System.out.println(result);
         System.out.println(usernameByPost);
