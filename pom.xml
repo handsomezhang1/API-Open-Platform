@@ -11,7 +11,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yupi</groupId>
-    <artifactId>yuapi-backend</artifactId>
+    <artifactId>shuaiapi-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>yuapi-backend</name>
     <description>接口</description>
