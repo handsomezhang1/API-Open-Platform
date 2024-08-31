@@ -1,7 +1,7 @@
-package com.yupi.project.service;
+package com.shuai.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yupi.project.model.entity.Post;
+import com.shuai.project.model.entity.Post;
 
 /**
  * 帖子服务

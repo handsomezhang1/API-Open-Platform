@@ -1,6 +1,6 @@
-package com.yupi.project.model.dto.user;
+package com.shuai.project.model.dto.user;
 
-import com.yupi.project.common.PageRequest;
+import com.shuai.project.common.PageRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

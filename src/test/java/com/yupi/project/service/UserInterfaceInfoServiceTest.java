@@ -1,4 +1,4 @@
-package com.yupi.project.service;
+package com.shuai.project.service;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

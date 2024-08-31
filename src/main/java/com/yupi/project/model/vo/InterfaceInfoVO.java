@@ -1,6 +1,6 @@
-package com.yupi.project.model.vo;
+package com.shuai.project.model.vo;
 
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
+import com.shuai.yuapicommon.model.entity.InterfaceInfo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

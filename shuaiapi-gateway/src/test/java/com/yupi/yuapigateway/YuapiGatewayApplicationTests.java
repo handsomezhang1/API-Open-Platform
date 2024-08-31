@@ -1,4 +1,4 @@
-package com.yupi.yuapigateway;
+package com.shuai.yuapigateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

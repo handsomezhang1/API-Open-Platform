@@ -1,22 +1,22 @@
-package com.yupi.project.controller;
+package com.shuai.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.gson.Gson;
-import com.yupi.project.annotation.AuthCheck;
-import com.yupi.project.common.*;
-import com.yupi.project.constant.CommonConstant;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoAddRequest;
-import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoInvokeRequest;
-import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoQueryRequest;
-import com.yupi.project.model.dto.interfaceinfo.InterfaceInfoUpdateRequest;
-import com.yupi.project.model.enums.InterfaceInfoStatusEnum;
-import com.yupi.project.service.InterfaceInfoService;
-import com.yupi.project.service.UserService;
-import com.yupi.yuapiclientsdk.client.YuApiClient;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
-import com.yupi.yuapicommon.model.entity.User;
+import com.shuai.project.annotation.AuthCheck;
+import com.shuai.project.common.*;
+import com.shuai.project.constant.CommonConstant;
+import com.shuai.project.exception.BusinessException;
+import com.shuai.project.model.dto.interfaceinfo.InterfaceInfoAddRequest;
+import com.shuai.project.model.dto.interfaceinfo.InterfaceInfoInvokeRequest;
+import com.shuai.project.model.dto.interfaceinfo.InterfaceInfoQueryRequest;
+import com.shuai.project.model.dto.interfaceinfo.InterfaceInfoUpdateRequest;
+import com.shuai.project.model.enums.InterfaceInfoStatusEnum;
+import com.shuai.project.service.InterfaceInfoService;
+import com.shuai.project.service.UserService;
+import com.shuai.yuapiclientsdk.client.YuApiClient;
+import com.shuai.yuapicommon.model.entity.InterfaceInfo;
+import com.shuai.yuapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -222,7 +222,7 @@ public class InterfaceInfoController {
             throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
         }
         // 判断该接口是否可以调用
-        com.yupi.yuapiclientsdk.model.User user = new com.yupi.yuapiclientsdk.model.User();
+        com.shuai.yuapiclientsdk.model.User user = new com.shuai.yuapiclientsdk.model.User();
         user.setUsername("test");
         String username = yuApiClient.getUsernameByPost(user);
         if (StringUtils.isBlank(username)) {
@@ -292,7 +292,7 @@ public class InterfaceInfoController {
         String secretKey = loginUser.getSecretKey();
         YuApiClient tempClient = new YuApiClient(accessKey, secretKey);
         Gson gson = new Gson();
-        com.yupi.yuapiclientsdk.model.User user = gson.fromJson(userRequestParams, com.yupi.yuapiclientsdk.model.User.class);
+        com.shuai.yuapiclientsdk.model.User user = gson.fromJson(userRequestParams, com.shuai.yuapiclientsdk.model.User.class);
         String usernameByPost = tempClient.getUsernameByPost(user);
         return ResultUtils.success(usernameByPost);
     }

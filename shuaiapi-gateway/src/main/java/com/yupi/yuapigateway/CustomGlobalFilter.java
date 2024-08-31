@@ -1,11 +1,11 @@
-package com.yupi.yuapigateway;
+package com.shuai.yuapigateway;
 
-import com.yupi.yuapiclientsdk.utils.SignUtils;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
-import com.yupi.yuapicommon.model.entity.User;
-import com.yupi.yuapicommon.service.InnerInterfaceInfoService;
-import com.yupi.yuapicommon.service.InnerUserInterfaceInfoService;
-import com.yupi.yuapicommon.service.InnerUserService;
+import com.shuai.yuapiclientsdk.utils.SignUtils;
+import com.shuai.yuapicommon.model.entity.InterfaceInfo;
+import com.shuai.yuapicommon.model.entity.User;
+import com.shuai.yuapicommon.service.InnerInterfaceInfoService;
+import com.shuai.yuapicommon.service.InnerUserInterfaceInfoService;
+import com.shuai.yuapicommon.service.InnerUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.reactivestreams.Publisher;

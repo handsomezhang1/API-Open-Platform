@@ -1,17 +1,17 @@
-package com.yupi.yuapiclientsdk.client;
+package com.shuai.yuapiclientsdk.client;
 
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
-import com.yupi.yuapiclientsdk.model.User;
+import com.shuai.yuapiclientsdk.model.User;
 
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.yupi.yuapiclientsdk.utils.SignUtils.genSign;
+import static com.shuai.yuapiclientsdk.utils.SignUtils.genSign;
 
 /**
  * 调用第三方接口的客户端

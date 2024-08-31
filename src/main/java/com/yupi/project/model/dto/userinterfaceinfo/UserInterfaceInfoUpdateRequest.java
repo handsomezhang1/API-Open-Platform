@@ -1,4 +1,4 @@
-package com.yupi.project.model.dto.userinterfaceinfo;
+package com.shuai.project.model.dto.userinterfaceinfo;
 
 
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.yupi.project.common;
+package com.shuai.project.common;
 
 // https://space.bilibili.com/12890453/
 

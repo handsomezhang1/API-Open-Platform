@@ -10,7 +10,7 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
+    <groupId>com.shuai</groupId>
     <artifactId>yuapi-client-sdk</artifactId>
     <version>0.0.1</version>
     <name>yuapi-client-sdk</name>

@@ -1,4 +1,4 @@
-package com.yupi.yuapiclientsdk.model;
+package com.shuai.yuapiclientsdk.model;
 
 import lombok.Data;
 

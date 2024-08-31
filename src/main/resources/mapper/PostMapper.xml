@@ -4,9 +4,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yupi.project.mapper.PostMapper">
+<mapper namespace="com.shuai.project.mapper.PostMapper">
 
-    <resultMap id="BaseResultMap" type="com.yupi.project.model.entity.Post">
+    <resultMap id="BaseResultMap" type="com.shuai.project.model.entity.Post">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="age" column="age" jdbcType="INTEGER"/>
             <result property="gender" column="gender" jdbcType="TINYINT"/>

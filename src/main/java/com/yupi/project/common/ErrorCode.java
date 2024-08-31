@@ -1,4 +1,4 @@
-package com.yupi.project.common;
+package com.shuai.project.common;
 
 /**
  * 错误码

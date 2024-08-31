@@ -4,9 +4,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yupi.project.mapper.UserMapper">
+<mapper namespace="com.shuai.project.mapper.UserMapper">
 
-    <resultMap id="BaseResultMap" type="com.yupi.yuapicommon.model.entity.User">
+    <resultMap id="BaseResultMap" type="com.shuai.yuapicommon.model.entity.User">
         <id property="id" column="id" jdbcType="BIGINT"/>
         <result property="userName" column="userName" jdbcType="VARCHAR"/>
         <result property="userAccount" column="userAccount" jdbcType="VARCHAR"/>

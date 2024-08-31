@@ -1,4 +1,4 @@
-package com.yupi.project.config;
+package com.shuai.project.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

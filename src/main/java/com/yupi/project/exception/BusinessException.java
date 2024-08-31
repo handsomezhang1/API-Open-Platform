@@ -1,6 +1,6 @@
-package com.yupi.project.exception;
+package com.shuai.project.exception;
 
-import com.yupi.project.common.ErrorCode;
+import com.shuai.project.common.ErrorCode;
 
 /**
  * 自定义异常类

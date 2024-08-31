@@ -1,4 +1,4 @@
-package com.yupi.yuapiinterface;
+package com.shuai.yuapiinterface;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.yupi.project.mapper;
+package com.shuai.project.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yupi.project.model.entity.Post;
+import com.shuai.project.model.entity.Post;
 
 /**
  * 帖子信息 Mapper

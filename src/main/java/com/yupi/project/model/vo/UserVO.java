@@ -1,4 +1,4 @@
-package com.yupi.project.model.vo;
+package com.shuai.project.model.vo;
 
 import lombok.Data;
 

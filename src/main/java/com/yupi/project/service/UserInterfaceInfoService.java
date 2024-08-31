@@ -1,7 +1,7 @@
-package com.yupi.project.service;
+package com.shuai.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yupi.yuapicommon.model.entity.UserInterfaceInfo;
+import com.shuai.yuapicommon.model.entity.UserInterfaceInfo;
 
 /**
  * 用户接口信息服务

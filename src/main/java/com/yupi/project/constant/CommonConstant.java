@@ -1,4 +1,4 @@
-package com.yupi.project.constant;
+package com.shuai.project.constant;
 
 /**
  * 通用常量

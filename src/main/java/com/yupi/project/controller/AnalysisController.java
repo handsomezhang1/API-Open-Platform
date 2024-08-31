@@ -1,16 +1,16 @@
-package com.yupi.project.controller;
+package com.shuai.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.yupi.project.annotation.AuthCheck;
-import com.yupi.project.common.BaseResponse;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.common.ResultUtils;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.mapper.UserInterfaceInfoMapper;
-import com.yupi.project.model.vo.InterfaceInfoVO;
-import com.yupi.project.service.InterfaceInfoService;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
-import com.yupi.yuapicommon.model.entity.UserInterfaceInfo;
+import com.shuai.project.annotation.AuthCheck;
+import com.shuai.project.common.BaseResponse;
+import com.shuai.project.common.ErrorCode;
+import com.shuai.project.common.ResultUtils;
+import com.shuai.project.exception.BusinessException;
+import com.shuai.project.mapper.UserInterfaceInfoMapper;
+import com.shuai.project.model.vo.InterfaceInfoVO;
+import com.shuai.project.service.InterfaceInfoService;
+import com.shuai.yuapicommon.model.entity.InterfaceInfo;
+import com.shuai.yuapicommon.model.entity.UserInterfaceInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.context.annotation.Configuration;

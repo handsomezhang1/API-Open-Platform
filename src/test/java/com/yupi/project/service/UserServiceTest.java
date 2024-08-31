@@ -1,6 +1,6 @@
-package com.yupi.project.service;
+package com.shuai.project.service;
 
-import com.yupi.yuapicommon.model.entity.User;
+import com.shuai.yuapicommon.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -8,7 +8,7 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
+    <groupId>com.shuai</groupId>
     <artifactId>shuaiapi-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>yuapi-gateway</name>
@@ -19,7 +19,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.yupi</groupId>
+            <groupId>com.shuai</groupId>
             <artifactId>yuapi-common</artifactId>
             <version>0.0.1</version>
         </dependency>
@@ -39,7 +39,7 @@
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yupi</groupId>
+            <groupId>com.shuai</groupId>
             <artifactId>yuapi-client-sdk</artifactId>
             <version>0.0.1</version>
         </dependency>

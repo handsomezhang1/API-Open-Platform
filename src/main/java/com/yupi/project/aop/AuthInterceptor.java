@@ -1,11 +1,11 @@
-package com.yupi.project.aop;
+package com.shuai.project.aop;
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
-import com.yupi.project.annotation.AuthCheck;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.service.UserService;
-import com.yupi.yuapicommon.model.entity.User;
+import com.shuai.project.annotation.AuthCheck;
+import com.shuai.project.common.ErrorCode;
+import com.shuai.project.exception.BusinessException;
+import com.shuai.project.service.UserService;
+import com.shuai.yuapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

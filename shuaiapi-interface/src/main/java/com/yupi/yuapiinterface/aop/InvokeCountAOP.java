@@ -1,4 +1,4 @@
-package com.yupi.yuapiinterface.aop;
+package com.shuai.yuapiinterface.aop;
 
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

@@ -1,4 +1,4 @@
-package com.yupi.project.annotation;
+package com.shuai.project.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

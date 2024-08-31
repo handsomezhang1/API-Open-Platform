@@ -1,6 +1,6 @@
-package com.yupi.yuapiclientsdk;
+package com.shuai.yuapiclientsdk;
 
-import com.yupi.yuapiclientsdk.client.YuApiClient;
+import com.shuai.yuapiclientsdk.client.YuApiClient;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;

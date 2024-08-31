@@ -11,7 +11,7 @@
         <version>2.7.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
+    <groupId>com.shuai</groupId>
     <artifactId>yuapi-common</artifactId>
     <version>0.0.1</version>
 

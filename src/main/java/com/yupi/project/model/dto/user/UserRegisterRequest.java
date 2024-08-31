@@ -1,4 +1,4 @@
-package com.yupi.project.model.dto.user;
+package com.shuai.project.model.dto.user;
 
 import lombok.Data;
 

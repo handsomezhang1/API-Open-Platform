@@ -1,7 +1,7 @@
-package com.yupi.yuapiinterface;
+package com.shuai.yuapiinterface;
 
-import com.yupi.yuapiclientsdk.client.YuApiClient;
-import com.yupi.yuapiclientsdk.model.User;
+import com.shuai.yuapiclientsdk.client.YuApiClient;
+import com.shuai.yuapiclientsdk.model.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

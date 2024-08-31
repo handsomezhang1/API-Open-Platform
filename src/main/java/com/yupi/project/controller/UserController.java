@@ -1,17 +1,17 @@
-package com.yupi.project.controller;
+package com.shuai.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.plugins.pagination.PageDTO;
-import com.yupi.project.common.BaseResponse;
-import com.yupi.project.common.DeleteRequest;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.common.ResultUtils;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.model.dto.user.*;
-import com.yupi.project.model.vo.UserVO;
-import com.yupi.project.service.UserService;
-import com.yupi.yuapicommon.model.entity.User;
+import com.shuai.project.common.BaseResponse;
+import com.shuai.project.common.DeleteRequest;
+import com.shuai.project.common.ErrorCode;
+import com.shuai.project.common.ResultUtils;
+import com.shuai.project.exception.BusinessException;
+import com.shuai.project.model.dto.user.*;
+import com.shuai.project.model.vo.UserVO;
+import com.shuai.project.service.UserService;
+import com.shuai.yuapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;

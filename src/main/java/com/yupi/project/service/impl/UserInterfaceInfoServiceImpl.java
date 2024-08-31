@@ -1,12 +1,12 @@
-package com.yupi.project.service.impl;
+package com.shuai.project.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.mapper.UserInterfaceInfoMapper;
-import com.yupi.project.service.UserInterfaceInfoService;
-import com.yupi.yuapicommon.model.entity.UserInterfaceInfo;
+import com.shuai.project.common.ErrorCode;
+import com.shuai.project.exception.BusinessException;
+import com.shuai.project.mapper.UserInterfaceInfoMapper;
+import com.shuai.project.service.UserInterfaceInfoService;
+import com.shuai.yuapicommon.model.entity.UserInterfaceInfo;
 import org.springframework.stereotype.Service;
 
 /**

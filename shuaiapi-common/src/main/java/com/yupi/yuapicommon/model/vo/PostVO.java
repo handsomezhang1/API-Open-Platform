@@ -1,8 +1,8 @@
-package com.yupi.yuapicommon.model.vo;
+package com.shuai.yuapicommon.model.vo;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import com.yupi.yuapicommon.model.entity.Post;
+import com.shuai.yuapicommon.model.entity.Post;
 
 /**
  * 帖子视图

@@ -1,4 +1,4 @@
-package com.yupi.yuapicommon.service;
+package com.shuai.yuapicommon.service;
 
 /**
  * 内部用户接口信息服务

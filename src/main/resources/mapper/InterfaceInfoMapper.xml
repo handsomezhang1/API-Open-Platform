@@ -4,9 +4,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yupi.project.mapper.InterfaceInfoMapper">
+<mapper namespace="com.shuai.project.mapper.InterfaceInfoMapper">
 
-    <resultMap id="BaseResultMap" type="com.yupi.yuapicommon.model.entity.InterfaceInfo">
+    <resultMap id="BaseResultMap" type="com.shuai.yuapicommon.model.entity.InterfaceInfo">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="name" column="name" jdbcType="VARCHAR"/>
             <result property="description" column="description" jdbcType="VARCHAR"/>

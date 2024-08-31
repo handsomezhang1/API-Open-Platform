@@ -1,4 +1,4 @@
-package com.yupi.project.model.dto.interfaceinfo;
+package com.shuai.project.model.dto.interfaceinfo;
 
 import lombok.Data;
 

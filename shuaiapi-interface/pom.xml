@@ -9,7 +9,7 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
+    <groupId>com.shuai</groupId>
     <artifactId>shuaiapi-interface</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>yuapi-interface</name>
@@ -19,7 +19,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.yupi</groupId>
+            <groupId>com.shuai</groupId>
             <artifactId>yuapi-client-sdk</artifactId>
             <version>0.0.1</version>
         </dependency>

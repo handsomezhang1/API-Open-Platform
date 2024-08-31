@@ -1,7 +1,7 @@
-package com.yupi.yuapiinterface.controller;
+package com.shuai.yuapiinterface.controller;
 
-import com.yupi.yuapiclientsdk.model.User;
-import com.yupi.yuapiclientsdk.utils.SignUtils;
+import com.shuai.yuapiclientsdk.model.User;
+import com.shuai.yuapiclientsdk.utils.SignUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;

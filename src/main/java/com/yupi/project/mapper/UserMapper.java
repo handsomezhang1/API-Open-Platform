@@ -1,7 +1,7 @@
-package com.yupi.project.mapper;
+package com.shuai.project.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yupi.yuapicommon.model.entity.User;
+import com.shuai.yuapicommon.model.entity.User;
 
 /**
  * 用户 Mapper

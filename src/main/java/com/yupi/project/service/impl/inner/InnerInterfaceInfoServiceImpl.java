@@ -1,11 +1,11 @@
-package com.yupi.project.service.impl.inner;
+package com.shuai.project.service.impl.inner;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.mapper.InterfaceInfoMapper;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
-import com.yupi.yuapicommon.service.InnerInterfaceInfoService;
+import com.shuai.project.common.ErrorCode;
+import com.shuai.project.exception.BusinessException;
+import com.shuai.project.mapper.InterfaceInfoMapper;
+import com.shuai.yuapicommon.model.entity.InterfaceInfo;
+import com.shuai.yuapicommon.service.InnerInterfaceInfoService;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.DubboService;
 

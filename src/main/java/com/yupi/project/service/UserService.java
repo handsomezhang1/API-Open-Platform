@@ -1,8 +1,8 @@
-package com.yupi.project.service;
+package com.shuai.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yupi.yuapicommon.model.entity.User;
+import com.shuai.yuapicommon.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 
